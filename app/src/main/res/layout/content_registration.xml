@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Registration"
+    tools:showIn="@layout/activity_registration">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/reg_tagline1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/reg_tagline1"
+            android:textSize="14sp"
+            android:padding="10sp"
+            />
+        <TextView
+            android:id="@+id/reg_tagline2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/reg_tagline2"
+            android:textSize="22sp"
+            android:padding="10sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/reg_tagline3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/reg_tagline3"
+            android:textSize="14sp"
+            android:padding="10sp"
+            />
+        <EditText
+            android:id="@+id/login_input_name"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/name" />
+        <EditText
+            android:id="@+id/login_input_email"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hint_email" />
+        <EditText
+            android:id="@+id/login_input_address"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/address" />
+        <EditText
+            android:id="@+id/login_input_education"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/education" />
+        <EditText
+            android:id="@+id/login_input_occupation"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/occupation" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_counselling_type"
+            />
+        <Spinner
+            android:id="@+id/conselling_types"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/login_input_mobile"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/mobile" />
+
+        <Button
+            android:id="@+id/submit_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Details"
+            android:background="@color/blue_w3schools"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

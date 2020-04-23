@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="531dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="KALYAN COUNSELING CLINIC"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Need to talk online counseling "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Understanding and confidential" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quick response; professional and friendly service"
+            android:textColor="@android:color/holo_green_light" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="425dp"
+            android:layout_marginTop="10px"
+            app:layout_constraintBottom_toTopOf="@+id/button_registration"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.559">
+
+                                                    <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:orientation="vertical"
+                                                        android:gravity="center">
+
+                                                        <TextView
+                                                            android:id="@+id/textView7"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:gravity="center"
+                                                            android:text="@string/about_us"
+                                                            android:textSize="18sp"
+                                                            android:padding="30sp"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="Family counseling"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+
+
+                                                        />
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="Rehabilitation counseling"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+
+                                                         />
+
+
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Mental health counseling"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                        />
+
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Substance abuse counseling"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+
+                                                        />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Educational counseling"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                        />
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:padding="10dp"
+                                                            android:text="⦁	Guidance and Carrier counseling "
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Marriage counseling"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Relationship problem"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Couple counseling"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Addictions/Habits"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                        />
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:padding="10dp"
+                                                            android:text="⦁	Anger/Abuse"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Panic Attacks/phobias"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Depressive Mood"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Low confidence and memory"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Stress/emotions"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:padding="10dp"
+                                                            android:text="⦁	Life coaching "
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Academic difficulty/work career dissatisfaction"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Hyperactivity"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Anxiety"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Teenage friendship issues"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Lack of interest in studies"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Addicted to phone/internet"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Fights b/w Parents and Teenager"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Alcoholic and smoking"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+                                                        <Button
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="⦁	Unhappy marriage"
+                                                            android:background="@color/blue_w3schools"
+                                                            android:textColor="@color/white"
+                                                            android:padding="10dp"
+                                                            android:layout_margin="10px"
+                                                            />
+
+
+                                                    </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to Take appointment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"
+        android:textSize="18sp"
+        style="@style/Widget.MaterialComponents.Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

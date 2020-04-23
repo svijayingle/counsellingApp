@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Kapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="hint_email">email</string>
+    <string name="address">Address</string>
+    <string name="occupation">Occupation</string>
+    <string name="education">Education</string>
+    <string name="mobile">Mobile No</string>
+    <string name="choose_counselling_type">choose counselling type</string>
+    <string name="reg_tagline1">Solutions to all your emotional and behavioral problems.</string>
+    <string name="reg_tagline2">“Kalyan counseling center”</string>
+    <string name="reg_tagline3">Appointments 10 am to 7 pm Monday to Saturday</string>
+
+    <string name="about_us">
+                    Counselors provide assessment, diagnosis and counseling to
+        people experiencing various life stresses and psychological problems.
+        They help people with relationship issues, family problems, job stress,
+        mental health disorders such as depression and anxiety, and many other
+        challenging problems that can affect their well-being and happiness.
+    </string>
+    <string name="title_activity_registration">Registration</string>
+    <string-array name="conselling_types">
+        <item>Family counseling</item>
+        <item>Rehabilitation counseling</item>
+        <item>Mental health counseling</item>
+        <item>Substance abuse counseling</item>
+        <item>Educational counseling</item>
+        <item>Guidance and Carrier counseling</item>
+        <item>Marriage counseling</item>
+        <item>Relationship problem</item>
+        <item>Couple counseling</item>
+        <item>Addictions/Habits</item>
+        <item>Anger/Abuse</item>
+        <item>Panic Attacks/phobias</item>
+        <item>Depressive Mood</item>
+        <item>Low confidence and memory</item>
+        <item>Stress/emotions</item>
+        <item>Life coaching</item>
+        <item>Academic difficulty/work career dissatisfaction</item>
+        <item>Hyperactivity</item>
+        <item>Anxiety</item>
+        <item>Teenage friendship issues</item>
+        <item>Lack of interest in studies</item>
+        <item>Addicted to phone/internet</item>
+        <item>Fights b/w Parents and Teenager</item>
+        <item>Alcoholic and smoking</item>
+        <item>Unhappy marriage</item>
+    </string-array>
+    <string name="title_activity_payment">Payment</string>
+    <string name="make_payment">Make Payment</string>
+</resources>

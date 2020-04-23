@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "339789444541",
+    "firebase_url": "https://kapp-6a904.firebaseio.com",
+    "project_id": "kapp-6a904",
+    "storage_bucket": "kapp-6a904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339789444541:android:a9b4c8a8b8f3124a270ed4",
+        "android_client_info": {
+          "package_name": "com.example.kapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339789444541-lbcuoo2bg67j59l32amuhnfj4f7pkp06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kapp",
+            "certificate_hash": "1c2f5e7329b6f06c672318a86608cfb0e86f161d"
+          }
+        },
+        {
+          "client_id": "339789444541-ic9fns2kjflnhat3r7t8l06vutbpt3so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrOHFejEy6j4sT6JZtOY1bwkKQ7VN0PiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339789444541-ic9fns2kjflnhat3r7t8l06vutbpt3so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
